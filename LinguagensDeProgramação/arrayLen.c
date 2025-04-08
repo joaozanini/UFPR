@@ -10,7 +10,7 @@ int main()
         len++;
     }
     
-    printf("%d", len);
+    printf("%d", len-2);
     
     return 0;
 }
