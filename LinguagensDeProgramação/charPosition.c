@@ -13,7 +13,9 @@ int main()
         if (str[i] == caractere) {
             printf("%d", i);
             break;
-        } else if (str[i] == '\0') {
+        } 
+        
+        if (str[i] == '\0') {
             printf("%d", -1);
             break;
         }
