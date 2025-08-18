@@ -1,0 +1,14 @@
+Métodos public:
+- Compila e executa normalmente.
+
+Métodos protected:
+- Compila e executa normalmente porque a classe UsaPonto3D está no
+    mesmo pacote (tarefa5.ponto3d).
+- se UsaPonto3D estivesse em outro pacote e não herdasse
+    de Ponto3D, haveria erro
+
+Métodos private:
+- Não compila.
+- Motivo: métodos private só podem ser acessados dentro da própria
+    classe Ponto3D. Como UsaPonto3D chama setX, setY, setZ e
+    calculaDistancia, o compilador não permite.
