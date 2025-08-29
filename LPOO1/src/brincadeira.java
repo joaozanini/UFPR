@@ -15,7 +15,7 @@ public class brincadeira {
             } else {
                 try {
                     System.out.print(letra);
-                    Thread.sleep(25);
+                    Thread.sleep(250);
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }

@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class brincadeira2 {
     public static void main(String[] args) {
-        String frase = "felipao é massa demais";
-        String alfabeto = " abcdeéfghijklmnopqrstuvwxyz0123456789";
+        //String frase = "ela é um morango do amor, não ta no menu ela é fofinha e bravinha tipo um labubu";
+        Scanner sc = new Scanner(System.in);
+        String frase = sc.nextLine();
+
+        String alfabeto = " abcdefghijklmnopqrstuvwxyzáãéõ";
 
         String ram = "";
 
